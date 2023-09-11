@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form id = "form" action="">
+        <div class="form-section">
+            <label>Arquivo</label>
+            <input type="file" name="" accept="image/png, image/jpeg" class="form-item" id="image-input" placeholder="pick an image">
+        </div>
+        <br>
+        <div class="form-section">
+            <label>Placa</label>
+            <input type="text" name="" class="form-item" id="placa-input" placeholder="Placa">
+        </div>
+        <br>
+        <button type ="submit" class="form-item form-section" id="ok-btn">Ok</button>
+        
+    </form>
+    </div>
+    <textarea disabled name="" id="text-result" cols="50" rows="10"></textarea>
+    <button id="btn-copy" style="display: none;">Copiar</button>
+    <div id="result"></div>
+    <script src="app.js"></script>
+</body>
+</html>
